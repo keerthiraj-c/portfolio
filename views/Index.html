@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b22e7e3bd2.js" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Spinning Mill</p>
+                    <h1><span>Bharathi</span> Mill<br>In Pondicherry</h1>
+                </div>
+            </div>
+        </div>
+        <!------------------------------About-------------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/Mill.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About</h1>
+                        <p>
+                            With our state-of-the-art facility and skilled team, we offer a diverse range of high-quality products 
+                            to meet your specific needs.
+                            From fine-grade flours and specialty grains to premium lumber and customized textiles, 
+                            our products are crafted with precision and attention to detail. Explore our comprehensive 
+                            product catalog to find the perfect solution for your requirements.             
+                        </p>                
+                    </div>
+                </div>
+            </div>
+            <!----------------------------Services------------------------------>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Services</h1>
+                <div class="services-list">
+                    <div>
+                        <h2>Cotton Production</h2>
+                        <p>In our mill Cotton and cotton based products are made and Sold in a wholesale.</p>    
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>Nylon Production</h2>
+                        <p>In our mill Nylon and nylon based products are made and Sold in a wholesale.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <h2>Fabric Production</h2>
+                        <p>In our mill Fabric and fabric based products are made and Sold in a wholesale.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!----------------------------Contact------------------------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="suc-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> keerthitecheng@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> +91 9080808459</p>
+                    </div>
+                    <div class="contact-right">
+                        <form name='submit-to-google-sheet' action="/contact" method="post">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="text" name="number" placeholder="Your Mobile Number" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
